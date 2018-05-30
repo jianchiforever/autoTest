@@ -1,4 +1,4 @@
-package testcase;
+﻿package testcase;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -29,7 +29,7 @@ public class BasicTestCase {
         seleniumUtil = new SeleniumUtil();
         System.setProperty(property, path);
         driver = seleniumUtil.getWebDriver(value);
-        seleniumUtil.Url("http://127.0.0.1:8086/bbs/forum.php");
+        seleniumUtil.Url("http://127.0.0.1:8088/Discuz_X3.2_SC_GBK/upload/forum.php");
         seleniumUtil.assertPage("论坛 - Powered by Discuz!");
     }
     @AfterMethod
