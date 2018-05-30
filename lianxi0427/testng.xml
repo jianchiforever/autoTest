@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="LianXiWhiteTest">
+    <parameter name="Browser" value="firefox" />
+    <test name="User">
+        <classes>
+            <class name="TestCrossBrower" />
+        </classes>
+    </test>
+
+</suite>

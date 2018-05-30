@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [LianXiWhiteTest]">
+  <parameter name="Browser" value="firefox"/>
+  <test name="User">
+    <classes>
+      <class name="TestCrossBrower"/>
+    </classes>
+  </test> <!-- User -->
+  <test name="User(failed)">
+    <classes>
+      <class name="TestCrossBrower">
+        <methods>
+          <include name="startBrower" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCrossBrower -->
+    </classes>
+  </test> <!-- User(failed) -->
+</suite> <!-- Failed suite [LianXiWhiteTest] -->
