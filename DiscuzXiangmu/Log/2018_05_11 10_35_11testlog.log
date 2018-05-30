@@ -1,0 +1,4 @@
+启动谷歌
+打开http://127.0.0.1:8088/Discuz_X3.2_SC_GBK/upload/forum.php网页
+开始查找元素：By.name: username
+超时!! 5 秒之后还没找到元素 [By.name: username]

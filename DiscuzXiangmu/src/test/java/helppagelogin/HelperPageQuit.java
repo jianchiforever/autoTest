@@ -13,4 +13,9 @@ public class HelperPageQuit {
      public static void clicktuichu(SeleniumUtil seleniumUtil){
          seleniumUtil.click(PageQuit.LOGIN_LINK_TUICHU);
      }
+//    退出方法
+     public static void quit(SeleniumUtil seleniumUtil){
+         clicktuichu(seleniumUtil);
+
+     }
 }

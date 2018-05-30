@@ -10,22 +10,24 @@ import java.util.Properties;
  */
 public class DiaoyongConfig {
     public static String browserName;
-
+    public static String url;
     public static void ReadProperties() throws IOException{
         Properties p = new Properties();
 //        加载配置文件
         InputStream ips = new FileInputStream("./Config.properties");
         p.load(ips);
         browserName=p.getProperty("browserName");
+        url=p.getProperty("url");
     }
     static {
         try{
-            DiaoyongConfig.ReadProperties();
+            ReadProperties();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
     public static void main(String[] args) {
         System.out.println(DiaoyongConfig.browserName);
+        System.out.println(DiaoyongConfig.url);
     }
 }

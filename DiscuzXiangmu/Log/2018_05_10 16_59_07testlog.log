@@ -1,0 +1,22 @@
+启动谷歌
+打开http://127.0.0.1:8088/Discuz_X3.2_SC_GBK/upload/forum.php网页
+开始查找元素：By.name: username
+找到了元素 [By.name: username]
+找到By.name: username元素
+输入wen内容成功
+开始查找元素：By.id: ls_password
+找到了元素 [By.id: ls_password]
+找到By.id: ls_password元素
+输入123456内容成功
+开始查找元素：By.xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]
+找到了元素 [By.xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]]
+找到By.xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]元素
+点击成功
+开始查找元素：By.id: scbar_txt
+找到了元素 [By.id: scbar_txt]
+找到By.id: scbar_txt元素
+输入大海内容成功
+开始查找元素：By.id: scbar_btn
+找到了元素 [By.id: scbar_btn]
+找到By.id: scbar_btn元素
+点击成功

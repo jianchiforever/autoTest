@@ -20,7 +20,7 @@ public class LogConfiguration {
         prop.setProperty("log4j.appender.toConsole.layout","org.apache.log4j.PatternLayout");
         prop.setProperty("log4j.appender.toConsole.layout.ConversionPattern","[%d{yyyy-MM-dd HH:mm:ss}] [%p] %m%n");
         prop.setProperty("log4j.appender.toFile","org.apache.log4j.DailyRollingFileAppender");
-        prop.setProperty("log4j.appender.toFile.layout","org.apache.log4j.PatternLayout");
+        prop.setProperty("log4j.appender.toFile.layout","org.aepach.log4j.PatternLayout");
         prop.setProperty("log4j.appender.toFile.layout.ConvesionPattern","[%d{yyyy-MM-dd HH:mm:ss}] [%p] %m%n");
         prop.setProperty("log4j.appender.toFile.file",logFilePath);
         PropertyConfigurator.configure(prop);
